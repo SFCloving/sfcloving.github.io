@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>See What You Qualify For | SFC Eric Loving, U.S. Army Recruiter</title>
+<meta name="description" content="Find out what Army jobs you qualify for and what they pay in a 15-minute sit-down. No commitment. Parents welcome. Office in Norwood, MA.">
+<meta property="og:title" content="See what you'd qualify for, in 15 minutes">
+<meta property="og:description" content="No commitment. Parents welcome. Straight answers about jobs, pay, and college money.">
+<meta property="og:image" content="img/hero.webp">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.webp">
+<style>
+:root{
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+  --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+  --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+  --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;--space-20:5rem;--space-24:6rem;--space-32:8rem;
+  --ink: oklch(0.2 0.012 110);
+  --ink-2: oklch(0.42 0.012 110);
+  --sand: oklch(0.965 0.012 85);
+  --sand-2: oklch(0.925 0.018 85);
+  --field: oklch(0.24 0.025 125);
+  --field-2: oklch(0.3 0.03 125);
+  --on-field: oklch(0.95 0.01 90);
+  --on-field-2: oklch(0.78 0.02 100);
+  --gold: oklch(0.8 0.15 80);
+  --gold-ink: oklch(0.22 0.03 80);
+  --line: oklch(0.85 0.015 90);
+  --font-display:'Cabinet Grotesk','Arial Narrow',sans-serif;
+  --font-body:'Satoshi','Helvetica Neue',sans-serif;
+  --radius:.5rem;
+  --wrap:min(72rem, 100% - 2*var(--space-6));
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font-body);font-size:var(--text-base);line-height:1.6;color:var(--ink);background:var(--sand);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:var(--wrap);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:var(--gold-ink);padding:var(--space-2) var(--space-4);z-index:99}
+.skip:focus{left:var(--space-4)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+/* header */
+.top{position:absolute;inset:0 0 auto 0;z-index:5;color:var(--on-field)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:var(--space-5);gap:var(--space-4)}
+.brand{font-family:var(--font-display);font-weight:800;font-size:var(--text-lg);letter-spacing:.01em;text-decoration:none;line-height:1.1}
+.brand small{display:block;font-family:var(--font-body);font-weight:500;font-size:var(--text-xs);letter-spacing:.08em;text-transform:uppercase;color:var(--on-field-2)}
+.top nav{display:flex;gap:var(--space-6);font-size:var(--text-sm);font-weight:500}
+.top nav a{text-decoration:none;opacity:.9}
+.top nav a:hover{opacity:1;text-decoration:underline;text-underline-offset:4px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);font:700 var(--text-sm)/1 var(--font-body);padding:var(--space-4) var(--space-6);border-radius:var(--radius);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .15s ease, background .15s ease;min-height:48px}
+.btn:active{transform:translateY(1px)}
+.btn-gold{background:var(--gold);color:var(--gold-ink)}
+.btn-gold:hover{background:oklch(0.85 0.14 82)}
+.btn-ghost{border-color:currentColor;color:inherit;background:transparent}
+.btn-ghost:hover{background:oklch(1 0 0 / .08)}
+.btn-dark{background:var(--field);color:var(--on-field)}
+.btn-dark:hover{background:var(--field-2)}
+
+/* hero */
+.hero{position:relative;min-height:min(100svh, 56rem);display:grid;align-items:end;color:var(--on-field);background:var(--field);overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 50%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, oklch(0.18 0.02 120 / .55) 0%, oklch(0.18 0.02 120 / .1) 35%, oklch(0.16 0.02 120 / .85) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-block:var(--space-32) clamp(var(--space-12),8vw,var(--space-20))}
+.kicker{font-size:var(--text-xs);font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--font-display);font-weight:800;font-size:var(--text-3xl);line-height:.98;letter-spacing:-.01em;max-width:14ch;margin-block:var(--space-4) var(--space-6)}
+.hero p.lede{font-size:var(--text-lg);max-width:38ch;color:var(--on-field);line-height:1.45}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-8)}
+.hero .fine{margin-top:var(--space-5);font-size:var(--text-sm);color:var(--on-field-2)}
+
+/* sections */
+section{padding-block:clamp(var(--space-16),9vw,var(--space-32))}
+h2{font-family:var(--font-display);font-weight:800;font-size:var(--text-2xl);line-height:1.02;letter-spacing:-.01em;max-width:18ch}
+h3{font-size:var(--text-lg);font-weight:700;line-height:1.25}
+.sec-head{display:grid;gap:var(--space-4);margin-bottom:var(--space-12)}
+.sec-head p{max-width:52ch;color:var(--ink-2)}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-8);counter-reset:s;list-style:none;padding:0}
+.steps li{border-top:2px solid var(--ink);padding-top:var(--space-6);counter-increment:s}
+.steps li::before{content:counter(s,decimal-leading-zero);display:block;font-family:var(--font-display);font-weight:800;font-size:var(--text-xl);color:var(--ink);margin-bottom:var(--space-3)}
+.steps p{color:var(--ink-2);margin-top:var(--space-2)}
+
+/* faq */
+.faq{background:var(--field);color:var(--on-field)}
+.faq .sec-head p{color:var(--on-field-2)}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--space-12)}
+details{border-bottom:1px solid oklch(1 0 0 / .14)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:var(--space-4);padding-block:var(--space-5);font-weight:700;font-size:var(--text-base)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--font-display);font-size:var(--text-xl);line-height:1;color:var(--gold);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding-bottom:var(--space-6);color:var(--on-field-2);max-width:48ch}
+.faq .after{margin-top:var(--space-12);display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-6)}
+.faq .after p{color:var(--on-field-2)}
+
+/* split */
+.split{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(var(--space-8),6vw,var(--space-20));align-items:center}
+.split.rev{grid-template-columns:1fr 1.05fr}
+.split.rev .media{order:2}
+.media img{border-radius:var(--radius);aspect-ratio:4/3;object-fit:cover;width:100%}
+.split ul{margin-top:var(--space-6);padding:0;list-style:none;display:grid;gap:var(--space-4)}
+.split li{padding-left:var(--space-6);position:relative;color:var(--ink-2)}
+.split li::before{content:"";position:absolute;left:0;top:.65em;width:.6rem;height:2px;background:var(--ink)}
+.split li strong{color:var(--ink)}
+.split .body > p{margin-top:var(--space-4);color:var(--ink-2);max-width:48ch}
+
+/* offers */
+.offers{background:var(--sand-2)}
+.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-6)}
+.offer{background:var(--sand);border:1px solid var(--line);border-radius:var(--radius);padding:var(--space-8);display:flex;flex-direction:column;gap:var(--space-3)}
+.offer .tag{font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.offer p:not(.tag){color:var(--ink-2);flex:1}
+.offer a{font-weight:700;font-size:var(--text-sm);text-underline-offset:4px}
+
+/* book */
+.book{background:var(--field);color:var(--on-field)}
+.book-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(var(--space-8),6vw,var(--space-20));align-items:start}
+.book .sec-head{margin-bottom:0}
+.book .sec-head p{color:var(--on-field-2)}
+.hours{margin-top:var(--space-8);border-top:1px solid oklch(1 0 0 / .14);padding-top:var(--space-6);display:grid;gap:var(--space-2);font-size:var(--text-sm);color:var(--on-field-2)}
+.hours strong{color:var(--on-field)}
+form{display:grid;gap:var(--space-5);background:var(--sand);color:var(--ink);padding:clamp(var(--space-6),4vw,var(--space-10));border-radius:var(--radius)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-5)}
+label{display:grid;gap:var(--space-2);font-size:var(--text-sm);font-weight:700}
+input,select,textarea{font:inherit;font-size:var(--text-base);font-weight:400;padding:var(--space-3) var(--space-4);border:1.5px solid var(--line);border-radius:var(--radius);background:#fff;color:var(--ink);min-height:48px;width:100%}
+textarea{min-height:6rem;resize:vertical}
+input:focus,select:focus,textarea:focus{border-color:var(--ink);outline:none;box-shadow:0 0 0 3px oklch(0.8 0.15 80 / .5)}
+fieldset{border:0;padding:0;display:grid;gap:var(--space-2)}
+legend{font-size:var(--text-sm);font-weight:700;margin-bottom:var(--space-2)}
+.chips{display:flex;flex-wrap:wrap;gap:var(--space-2)}
+.chips label{display:inline-flex;align-items:center;gap:var(--space-2);font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:var(--space-2) var(--space-4);cursor:pointer;background:#fff;min-height:44px}
+.chips input{width:auto;min-height:0;accent-color:var(--field)}
+.chips label:has(input:checked){border-color:var(--ink);background:var(--sand-2)}
+.form-note{font-size:var(--text-xs);color:var(--ink-2)}
+.ok{display:none;background:var(--sand-2);border-left:4px solid var(--gold);padding:var(--space-4) var(--space-5);font-size:var(--text-sm)}
+.ok.show{display:block}
+
+/* refer */
+.refer .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:var(--space-12);align-items:end}
+.refer p{color:var(--ink-2);max-width:46ch;margin-top:var(--space-4)}
+.refer .ctas{display:flex;flex-wrap:wrap;gap:var(--space-3);justify-content:flex-end}
+
+.nav-text{border:1.5px solid currentColor;border-radius:var(--radius);padding:var(--space-2) var(--space-3)}
+.direct{margin-top:var(--space-8);display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4)}
+.direct p{width:100%;font-weight:700}
+.direct .call{font-size:var(--text-sm);color:var(--on-field-2);text-underline-offset:4px}
+.foot-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--space-4);align-items:center}
+.foot-links{display:flex;flex-wrap:wrap;gap:var(--space-6);font-size:var(--text-sm);color:var(--on-field)}
+.foot-links a{text-underline-offset:4px}
+.media.portrait img{aspect-ratio:4/5;object-position:50% 20%}
+.proof{padding-top:0}
+.proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-6)}
+.proof figure{margin:0}
+.proof img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius)}
+.proof figcaption{margin-top:var(--space-3);font-size:var(--text-sm);font-weight:700}
+@media (max-width: 860px){.proof-grid{grid-template-columns:1fr}}
+footer address{font-style:normal;margin-top:var(--space-2);font-size:var(--text-sm)}
+footer address a,.hours a{text-underline-offset:4px}
+footer{background:var(--ink);color:var(--on-field-2);padding-block:var(--space-12);font-size:var(--text-xs)}
+footer .wrap{display:grid;gap:var(--space-4)}
+footer strong{color:var(--on-field);font-size:var(--text-sm)}
+footer p{max-width:80ch}
+
+@media (max-width: 860px){
+  .top nav{display:none}
+  .steps,.offer-grid{grid-template-columns:1fr}
+  .faq-grid{grid-template-columns:1fr}
+  .split,.split.rev,.book-grid,.refer .wrap{grid-template-columns:1fr}
+  .split.rev .media{order:0}
+  .refer .ctas{justify-content:flex-start}
+  .row{grid-template-columns:1fr}
+  .hero img{object-position:28% 50%}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">SFC Eric Loving<small>U.S. Army Recruiter</small></a>
+    <nav aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#faq">Can I join if…?</a>
+      <a href="#parents">Parents</a>
+      <a href="#book">Book a time</a>
+      <a href="sms:+16178517222" class="nav-text">Text (617) 851-7222</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <img src="img/hero.webp" alt="A young man ties his running shoes on a high school track at sunrise, autumn trees behind him" width="1536" height="1024" fetchpriority="high">
+    <div class="wrap">
+      <p class="kicker">Norwood &amp; nearby towns</p>
+      <h1 id="hero-title">See what you'd qualify for in 15&nbsp;minutes.</h1>
+      <p class="lede">Jobs, pay, college money, and what it really takes. Straight answers, no pressure, and talking to me doesn't sign you up for anything.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#book">Book my 15 minutes</a>
+        <a class="btn btn-ghost" href="sms:+16178517222">Text me</a>
+      </div>
+      <p class="fine">Parents and friends are welcome to come along.</p>
+    </div>
+  </section>
+
+  <section id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" style="color:var(--ink-2)">How it works</p>
+        <h2 id="how-title">Three steps. You decide what happens next.</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Pick a time</h3><p>Whatever day and time works for you. Bring a parent or a friend if you want.</p></li>
+        <li><h3>We sit down for 15 minutes</h3><p>I ask about you: your plans, what you're good at, what you want out of a job. You ask me anything.</p></li>
+        <li><h3>You see your options</h3><p>The jobs you'd likely qualify for, what they pay, and how college money works. Then you take it home and think.</p></li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section id="faq" class="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">Can I join if…?</p>
+        <h2 id="faq-title">The questions people are afraid to ask.</h2>
+        <p>Every situation is different, so these are honest starting points, not final answers. Final eligibility is decided during processing. Ask me about yours.</p>
+      </div>
+      <div class="faq-grid">
+        <div>
+          <details><summary>…I have tattoos?</summary><p>Usually, yes. Where they are and what they show matters. Snap a few photos and I'll tell you where you stand.</p></details>
+          <details><summary>…I have a GED, not a diploma?</summary><p>People with a GED do join. Some options depend on your test scores and credits, so let's look at yours together.</p></details>
+          <details><summary>…I have asthma or another medical issue?</summary><p>Some conditions are fine, some can be waived, and some are disqualifying. A doctor makes the call during processing. I'll be straight with you before you go.</p></details>
+          <details><summary>…I'm not at my goal weight?</summary><p>There are height, weight, and body-fat standards. If you're close, there are prep programs to help you get there. Many people start right where you are.</p></details>
+        </div>
+        <div>
+          <details><summary>…I'm planning on college?</summary><p>Good. The Army can help pay for college before, during, or after service. I'll show you what that could look like for you.</p></details>
+          <details><summary>…I'm 17, or I'm older?</summary><p>Age limits apply, and 17-year-olds need a parent's consent. If you're older and wondering whether you've missed your window, ask. You might not have.</p></details>
+          <details><summary>…I've been in trouble before?</summary><p>It depends on what and when. Be upfront with me and I'll tell you honestly what's possible.</p></details>
+          <details><summary>…I just want information?</summary><p>That's what the 15 minutes is for. No commitment and no paperwork. You leave with answers.</p></details>
+        </div>
+      </div>
+      <div class="after">
+        <a class="btn btn-gold" href="#book">Ask me about your situation</a>
+        <p>Don't see your question? Put it in the booking form.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="parents" aria-labelledby="parents-title">
+    <div class="wrap split">
+      <div class="media"><img src="img/parents.webp" alt="A mother and her teenage son look over papers and a laptop together at the kitchen table" width="1200" height="800"></div>
+      <div class="body">
+        <p class="kicker" style="color:var(--ink-2)">For parents</p>
+        <h2 id="parents-title">You should be in the room.</h2>
+        <p>Most families I sit with have the same questions. I'd rather answer them with you there than have your son or daughter try to explain it later.</p>
+        <ul>
+          <li><strong>What would they actually do?</strong> We look at specific jobs, not just "the Army."</li>
+          <li><strong>How does college get paid for?</strong> I'll walk you through the options.</li>
+          <li><strong>What are the commitments?</strong> Length of service, training, and what happens after.</li>
+          <li><strong>Is it safe to just talk?</strong> Yes. A conversation doesn't commit anyone to anything.</li>
+        </ul>
+        <p style="margin-top:var(--space-8)"><a class="btn btn-dark" href="#book">Book a time for both of you</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="offers" aria-labelledby="offers-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" style="color:var(--ink-2)">Free, no strings</p>
+        <h2 id="offers-title">Start with something useful.</h2>
+      </div>
+      <div class="offer-grid">
+        <article class="offer"><p class="tag">15 minutes</p><h3>What would I qualify for?</h3><p>A quick sit-down to see which jobs fit you and what they pay.</p><a href="#book" data-interest="Qualify check">Book it</a></article>
+        <article class="offer"><p class="tag">Practice test</p><h3>ASVAB practice session</h3><p>Try a practice test, see where you'd score, and learn what to study. Good for anyone, even if you're not sure yet.</p><a href="#book" data-interest="ASVAB practice">Save my spot</a></article>
+        <article class="offer"><p class="tag">Bring a friend</p><h3>Fitness challenge</h3><p>A group workout to see where you stand. Bring the friend who always says they're in better shape than you.</p><a href="#book" data-interest="Fitness challenge">I'm in</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="real-title">
+    <div class="wrap split rev">
+      <div class="media portrait"><img src="img/portrait.webp" alt="SFC Eric Loving smiling in uniform in front of an American flag" width="880" height="1100"></div>
+      <div class="body">
+        <p class="kicker" style="color:var(--ink-2)">Why talk to me</p>
+        <h2 id="real-title">You're capable of more than you think.</h2>
+        <p>I'm Sergeant First Class Eric Loving, your local Army recruiter. I've watched people walk into my office unsure of what's next and walk out with a plan, a purpose, and a future they're proud of. My job is to help you see what you're capable of, then help you get there. Whatever you decide, you'll leave knowing your options and believing in what's possible.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="book" aria-labelledby="book-title">
+    <div class="wrap book-grid">
+      <div>
+        <div class="sec-head">
+          <p class="kicker">Book a time</p>
+          <h2 id="book-title">Pick a time. I'll confirm by text.</h2>
+          <p>Tell me a little about you and when works. I'll text you to confirm, and once more before we meet.</p>
+        </div>
+        <div class="hours">
+          <span><strong>Office hours</strong> Weekdays 9:00 to 5:00</span>
+          <span><strong>Appointments</strong> Pick any day and time that works for you</span>
+          <span><strong>Office</strong> <a href="https://www.google.com/maps/search/?api=1&amp;query=940+Boston+Providence+Turnpike+Norwood+MA+02062" target="_blank" rel="noopener">940 Boston Providence Turnpike, Norwood, MA 02062</a></span>
+          <span>Can't make it in? I can meet you at school or somewhere nearby.</span>
+        </div>
+        <div class="direct">
+          <p>Rather just text?</p>
+          <a class="btn btn-gold" href="sms:+16178517222">Text (617) 851-7222</a>
+          <a class="call" href="tel:+16178517222">or call</a>
+        </div>
+      </div>
+
+      <form id="bookForm" novalidate>
+        <div class="row">
+          <label>First name<input name="name" autocomplete="given-name" required></label>
+          <label>Cell phone<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(508) 555-0123"></label>
+        </div>
+        <div class="row">
+          <label>I am
+            <select name="who">
+              <option>Thinking about joining</option>
+              <option>A parent</option>
+              <option>Just curious</option>
+            </select>
+          </label>
+          <label>Interested in
+            <select name="interest" id="interest">
+              <option>Qualify check</option>
+              <option>ASVAB practice</option>
+              <option>Fitness challenge</option>
+              <option>Just questions</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <label>Pick a day<input type="date" name="date" id="date" required></label>
+          <label>Pick a time<input type="time" name="clock" id="clock" step="900" value="15:30" required></label>
+        </div>
+        <fieldset>
+          <legend>Who's coming</legend>
+          <div class="chips">
+            <label><input type="radio" name="with" value="Just me" checked> Just me</label>
+            <label><input type="radio" name="with" value="Me and a parent"> Me and a parent</label>
+            <label><input type="radio" name="with" value="Me and a friend"> Me and a friend</label>
+          </div>
+        </fieldset>
+        <label>Anything you want me to know? (optional)<textarea name="note" placeholder="Tattoos, medical stuff, college plans, anything."></textarea></label>
+        <button class="btn btn-gold" type="submit">Request my time</button>
+        <p class="form-note">Your info goes only to me. A conversation doesn't commit you to anything.</p>
+        <p class="ok" id="ok" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="refer" aria-labelledby="refer-title">
+    <div class="wrap">
+      <div>
+        <p class="kicker" style="color:var(--ink-2)">Know someone?</p>
+        <h2 id="refer-title">Who should hear about this?</h2>
+        <p>Most people find me through a friend. If someone you know is figuring out what's next, send them this page.</p>
+      </div>
+      <div class="ctas">
+        <button class="btn btn-dark" id="shareBtn" type="button">Send this to a friend</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div><strong>SFC Eric Loving, U.S. Army Recruiter</strong>
+      <address><a href="https://www.google.com/maps/search/?api=1&amp;query=940+Boston+Providence+Turnpike+Norwood+MA+02062" target="_blank" rel="noopener">940 Boston Providence Turnpike, Norwood, MA 02062</a></address></div>
+      <div class="foot-links">
+        <a href="sms:+16178517222">Text (617) 851-7222</a>
+        <a href="tel:+16178517222">Call</a>
+        <a class="social" data-social="facebook" href="#" hidden>Facebook</a>
+        <a class="social" data-social="instagram" href="#" hidden>Instagram</a>
+      </div>
+    </div>
+    <p>This is a personal recruiter page, not an official U.S. Army website. Information here is general. Eligibility, jobs, and benefits are determined during the enlistment process and can change. For official information, visit goarmy.com.</p>
+  </div>
+</footer>
+
+<script>
+const CONTACT_EMAIL = "eric.r.loving.mil@army.mil";
+function niceDate(d){if(!d)return'';const [y,m,dd]=d.split('-').map(Number);return new Date(y,m-1,dd).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});}
+function niceTime(t){if(!t)return'';let [h,m]=t.split(':').map(Number);const ap=h>=12?'PM':'AM';h=h%12||12;return `${h}:${String(m).padStart(2,'0')} ${ap}`;}
+(()=>{const el=document.getElementById('date');const n=new Date();const iso=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;el.min=iso(n);})();
+const SOCIAL = { facebook: "https://www.facebook.com/share/14v67i9MQ6m/", instagram: "https://www.instagram.com/sergeant_first_class_loving/" }; // add profile URLs here
+document.querySelectorAll('[data-social]').forEach(a=>{const u=SOCIAL[a.dataset.social]; if(u){a.href=u;a.hidden=false;a.target="_blank";a.rel="noopener";}});
+document.querySelectorAll('[data-interest]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('interest').value=a.dataset.interest;}));
+const form=document.getElementById('bookForm'), ok=document.getElementById('ok');
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  const f=new FormData(form);
+  const miss=!f.get('name')?.trim()?form.name:!f.get('phone')?.trim()?form.phone:!f.get('date')?form.date:!f.get('clock')?form.clock:null;
+  if(miss){ok.textContent="Please add your first name, cell number, and the day and time you'd like.";ok.classList.add('show');miss.focus();return;}
+  const body=`Name: ${f.get('name')}\nPhone: ${f.get('phone')}\nI am: ${f.get('who')}\nInterested in: ${f.get('interest')}\nRequested: ${niceDate(f.get('date'))} at ${niceTime(f.get('clock'))}\nComing: ${f.get('with')}\nNote: ${f.get('note')||'-'}`;
+  ok.textContent=`Thanks, ${f.get('name')}. You asked for ${niceDate(f.get('date'))} at ${niceTime(f.get('clock'))}. I'll text you at ${f.get('phone')} from (617) 851-7222 to confirm. Save my number so you know it's me.`;
+  ok.classList.add('show');
+  try{window.open(`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Appointment request: '+f.get('name'))}&body=${encodeURIComponent(body)}`,'_blank');}catch(_){}
+});
+document.getElementById('shareBtn').addEventListener('click',async()=>{
+  const data={title:'See what you\'d qualify for',text:'Thought of you. 15 minutes, no commitment:',url:location.href};
+  try{ if(navigator.share){await navigator.share(data);return;} }catch(_){return;}
+  window.location.href=`sms:?&body=${encodeURIComponent(data.text+' '+data.url)}`;
+});
+</script>
+</body>
+</html>
